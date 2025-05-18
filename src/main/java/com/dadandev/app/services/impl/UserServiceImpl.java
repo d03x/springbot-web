@@ -2,9 +2,12 @@ package com.dadandev.app.services.impl;
 
 import java.util.ArrayList;
 
+import org.springframework.stereotype.Service;
+
 import com.dadandev.app.dto.UserDto;
 import com.dadandev.app.services.UserService;
 
+@Service
 public class UserServiceImpl implements UserService {
   @Override
   public ArrayList<UserDto> getAllUser() {
